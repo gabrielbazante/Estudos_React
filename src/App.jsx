@@ -16,6 +16,7 @@ import ComParametro from './components/basicos/ComParametro'
 import Fragmento from './components/basicos/Fragmento'
 import Aleatorio from "./components/basicos/Aleatorio";
 import Card from "./components/layout/Card";
+import Mega from "./components/mega/Mega";
 
 export default function App(props) {
     return (
@@ -23,6 +24,9 @@ export default function App(props) {
             <h1>Fundamdentos React</h1>
 
             <div className="Cards">
+                <Card titulo="#13 - Mega Sena" color="#1499D3">
+                    <Mega qtde={7}></Mega>
+                </Card>
                 <Card titulo="#12 - Contador" color="#424242">
                     <Contador numeroInicial={10}></Contador>
                 </Card>

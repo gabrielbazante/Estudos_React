@@ -1,0 +1,20 @@
+.Mega input{
+    font-size: 1.4rem;
+    width: 60px;
+    margin: 15px;
+}
+
+.Mega label{
+    margin-right: 10px;
+}
+
+.Mega button{
+    background-color: #1499D3;
+    color: aliceblue;
+    font-size: 1.2rem;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    width: 120px;
+    border: none;
+}
